@@ -132,7 +132,8 @@ const styles = StyleSheet.create({
  
   button: {
     flexGrow: 7,
-    flexDirection: "row",     
+    flexDirection: "row",
+
   },
   zahlen: {
     flex: 3,
@@ -140,7 +141,7 @@ const styles = StyleSheet.create({
 
   },
   anordnungZahlen: {
-    backgroundColor: "blue",
+    backgroundColor: "lightgray",
     flexDirection: "row",
     flex: 1,
     alignItems: "center",
@@ -157,8 +158,4 @@ const styles = StyleSheet.create({
     justifyContent: "space-around",
 
   },
- 
-  
-
-
 });
